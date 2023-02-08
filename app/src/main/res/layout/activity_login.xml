@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etLoginEmail"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/etLoginSifre"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sifre"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/btnGiris"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Giris Yap"
+        android:textStyle="bold"
+
+        ></Button>
+
+    <TextView
+        android:id="@+id/tvKayitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayit ol"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"></TextView>
+
+    <EditText
+        android:id="@+id/etGuncelleMail"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanici Adi"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+
+        ></EditText>
+    <Button
+        android:id="@+id/btnGuncelle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Guncelle"
+        android:textStyle="bold"
+
+        ></Button>
+    <Button
+        android:id="@+id/btnSil"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Datayi Sil"
+        android:textStyle="bold"
+
+        ></Button>
+
+
+</LinearLayout>
+
+
+
